@@ -1,0 +1,12 @@
+.confidence {
+  max-width: 213px;
+  margin: 0 auto;
+  padding-top: 8px;
+  color: var(--color-copyright);
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 12px;
+  &__link {
+    color: var(--color-copyright);
+  }
+}

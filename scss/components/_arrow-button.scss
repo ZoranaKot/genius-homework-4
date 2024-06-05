@@ -1,0 +1,14 @@
+.arrow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  &.next {
+    transform: rotate(180deg);
+  }
+  &__icon {
+    fill: var(--color-brand-dark);
+  }
+}
