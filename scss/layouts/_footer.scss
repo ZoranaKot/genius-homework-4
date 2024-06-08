@@ -3,12 +3,12 @@
   margin: 0 auto;
   max-width: 1240px;
   background-color: var(--color-brand-dark);
-  background-image: url("/images/background-footer.png");
+  background-image: url("../images/background-footer.png");
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url("/images/background-footer@2x.png");
+    background-image: url("../images/background-footer@2x.png");
   }
   &::after {
     display: none;
