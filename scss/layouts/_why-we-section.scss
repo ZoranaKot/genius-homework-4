@@ -1,0 +1,66 @@
+.why-we-section {
+  position: relative;
+  padding-top: 174px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    @media screen and (min-width: $--bp-desktop) {
+      flex-direction: row;
+      gap: 56px;
+      align-items: stretch;
+      justify-content: center;
+    }
+  }
+  &__why-we {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+    padding: 24px 32px;
+    text-align: center;
+    border-radius: 32px;
+    background-color: var(--color-primary-light);
+    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+    min-height: 100%;
+    max-width: 316px;
+    @media screen and (min-width: $--bp-desktop) {
+      flex-direction: column;
+    }
+  }
+  &__why-we p:last-child {
+    margin-bottom: 0; /* Забираємо нижній відступ у останнього параграфу */
+  }
+
+  &__background {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+
+    @media screen and (min-width: $--bp-tablet) {
+      background-repeat: no-repeat;
+      background-position: center top;
+      
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url("../images/background@2x.png");
+    }
+  }
+
+ &__jars-icon,
+ &__crown-icon,
+ &__atom-icon {
+  fill: var(--color-brand-dark);
+  width: 100%;
+  justify-content: center;
+ }
+}

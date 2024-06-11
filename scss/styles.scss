@@ -1,0 +1,23 @@
+@import "./utils/fonts.scss";
+@import "./utils/variables.scss";
+@import "./base.scss";
+@import "./utils/utils.scss";
+@import "./utils/texts.scss";
+/*Button*/
+@import "./components/buttons.scss";
+@import "./components/arrow-button.scss";
+@import "./components/links.scss";
+@import "./components/procedure-cards";
+@import "./components/input";
+@import "./components/confidence";
+@import "./components/pagination";
+
+@import "./layouts/header.scss";
+@import "./layouts/hero-section";
+@import "./layouts/about-us-section";
+@import "./layouts/why-we-section";
+@import "./layouts/procedure-section";
+@import "./layouts/contacts-section";
+@import "./layouts/footer";
+@import "./layouts/mobile-menu";
+@import "./layouts/modal";
